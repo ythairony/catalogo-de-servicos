@@ -6,9 +6,7 @@ class Category{
   private string name;
   public Category(int id, string name) {
     this.id = id;
-    if (name != null || name != "") {
-      this.name = name;
-    }
+    this.name = name;
   }
   public override string ToString(){ return $"[{this.id}] {this.name}"; }
 }
