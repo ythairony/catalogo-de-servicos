@@ -6,6 +6,7 @@ class Provider{
     private string contact;
     private string sex;
     private string neighborhood;
+    // lista de serviço
 
     public Provider(int id, string first_name, string second_name, string nickname, string contact, string sex, string neighborhood )
     {
@@ -17,12 +18,29 @@ class Provider{
         this.sex = sex;
         this.neighborhood = neighborhood;
     }
-    public string GetFirst_name() { return this.first_name; }
-    public string GetSecond_name() { return this.second_name; }
-    public string GetNickname() { return this.nickname; }
-    public string GetContact() { return this.contact; }
-    public string GetSex() { return this.sex; }
-    public string GetNeighborhood() { return this.neighborhood; }
+    public string GetFirst_name() { 
+        return first_name; 
+    }
+
+    public string GetSecond_name() { 
+        return second_name; 
+    }
+    
+    public string GetNickname() { 
+        return nickname; 
+    }
+    
+    public string GetContact() { 
+        return contact; 
+    }
+    
+    public string GetSex() { 
+        return sex; 
+    }
+    
+    public string GetNeighborhood() { 
+        return neighborhood; 
+    }
 
     //ToString
 
